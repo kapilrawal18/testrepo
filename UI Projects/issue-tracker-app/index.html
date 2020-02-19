@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Issue-Tracker-App</title>
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <td height="25px">
+                <h1 class="apptitle">Issue-Tracker-App using JS+HTML+CSS</h1>
+            </td>
+        </tr>
+
+        <tr>
+            <td height="400px" valign="top">
+                <div class="container">
+                    <div>
+                        <button onclick="handlers.displayIssues()">Display Issues</button>
+                        <button onclick="handlers.toggleAll()">Toggle All</button>
+                    </div><br>
+                    <div>
+                        <input type="text" placeholder="Enter issue" id="addIssueText">
+                        <button onclick="handlers.addIssue()">Add</button>
+                    </div><br>
+                    <div>
+                        <input type="number" placeholder="Enter Position" id="changeIssuePositionInput">
+                        <input type="text" placeholder="Enter issue" id="changeIssueTextInput">
+                        <button onclick="handlers.changeIssue()">Change</button>
+                    </div>
+                    <div id="sideInstruction" class="text-middle">
+                        <p>Hover on issue or [X] button to get the help</p>
+                        <p>Click on issue or [X] button to change status or delete issue</p>
+                    </div>
+                    <br>
+                </div>
+                <hr>
+                <ul>
+
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td height="20px">
+                <h4>Developed by : Kapil Rawal</h4>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

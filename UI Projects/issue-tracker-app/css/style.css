@@ -1,0 +1,13 @@
+table{
+    width: 100%;
+}
+
+tr h1{
+    background: rgb(37, 179, 160);
+}
+
+#sideInstruction{
+    width: 400px;
+    height: 150px;
+    background: rgb(39, 134, 138);
+}
